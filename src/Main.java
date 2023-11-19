@@ -23,6 +23,8 @@ public class Main {
         carList1.add(new Truck("Opel", 300000, Color.RED, owners[2], 5, 3));
         carList1.add(new PassengerCar("Mer", 100, Color.WHITE, owners[2], 5));
 
+
+
         System.out.println("инфо о авто");
         carList1.showCars();
         System.out.println("инфо о первом в списке авто");
